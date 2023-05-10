@@ -1,0 +1,9 @@
+einops==0.6.1
+hausdorff==0.2.6
+numpy==1.21.0
+opencv_python==4.6.0.66
+SimpleITK==2.2.0
+tensorboardX==2.6
+timm==0.6.11
+torch==1.9.0+cu111
+tqdm==4.64.1
