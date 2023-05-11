@@ -5,7 +5,7 @@
 > *Hengyi Yang*,
 > [*Tao Zhou*](https://taozh2017.github.io),
 > [*Yi Zhou*](https://cse.seu.edu.cn/2021/0303/c23024a362239/page.htm),
-> [*Yizhe Zhang*](yizhezhang.com),
+> [*Yizhe Zhang*](https://yizhezhang.com/),
 > and [*Huazhu Fu*](https://hzfu.github.io/).
 >
 > 
