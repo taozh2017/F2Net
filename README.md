@@ -84,8 +84,8 @@ Please cite our paper if you find the work useful, thanks!
        journal={IEEE Journal of Biomedical and Health Informatics}, 
        title={Flexible Fusion Network for Multi-modal Brain Tumor Segmentation}, 
        year={2023},
-       volume={},
-       number={},
+       volume={27},
+       number={7},
        pages={1-11},
        doi={10.1109/JBHI.2023.3271808}
     }
