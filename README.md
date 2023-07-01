@@ -86,7 +86,7 @@ Please cite our paper if you find the work useful, thanks!
        year={2023},
        volume={27},
        number={7},
-       pages={1-11},
+       pages={3349-3359},
        doi={10.1109/JBHI.2023.3271808}
     }
 
