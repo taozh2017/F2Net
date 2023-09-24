@@ -1,0 +1,47 @@
+# system
+mode: 0
+distribute: False
+num_parallel_workers: 8
+val_while_train: False
+
+# dataset
+dataset: "imagenet"
+data_dir: "/pretrainmodel/pvt_v2_b2.ckpt"
+shuffle: True
+dataset_download: False
+batch_size: 12
+drop_remainder: True
+
+# model
+model: "pvt_v2_b2"
+in_channels: 3
+num_classes: 3
+pretrained: True
+ckpt_path: ""
+keep_checkpoint_max: 10
+ckpt_save_dir: "./ckpt"
+epoch_size: 150
+drop_path_rate: 0.1
+dataset_sink_mode: True
+amp_level: "O2"
+ckpt_path: "/pretrainmodel/model.ckpt"
+
+# loss
+loss: "ce"
+label_smoothing: 0.1
+
+# lr scheduler
+scheduler: "polynomial_decay"
+lr: 0.01
+min_lr: 0.000001
+decay_epochs: 150
+warmup_epochs: 0
+
+# optimizer
+opt: "sgd"
+filter_bias_and_bn: True
+momentum: 0.9
+weight_decay: 0.05
+loss_scale_type: "dynamic"
+drop_overflow_update: True
+use_nesterov: False
