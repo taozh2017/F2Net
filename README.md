@@ -74,8 +74,32 @@ The training and testing experiments are conducted using [PyTorch](https://githu
 6. Testing:
 
     + After you download all the pre-trained model and testing dataset, just run `python test.py --resume ./checkpoint.pth.tar` to generate the final prediction maps.
+
+## 4. Mindspore
+You need to run `cd mindspore` first.
+
+1. Environment Configuration:
+
+    + MindSpore: 2.0.0
+    + Python: 3.7.0
+    + MindCV
+  
+2. Preprocessing:
+
+    + Before training, the dataset must be preprocessed, just run `python dateset_preprocess.py`. We provide the train 
+    dataset and test dataset in `./data/train_list.txt` and `./data/train_list.txt`.
+
+3. Training Configuration:
+
+    + Assigning your costumed path, like `--save_model` and so on in `train.py`.
     
-## 4. Citation
+    + Just enjoy it!
+
+4. Testing Configuration:
+
+    + update soon...
+
+## 5. Citation
 
 Please cite our paper if you find the work useful, thanks!
 
